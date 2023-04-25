@@ -1,0 +1,22 @@
+<html>
+<title>Autodraw HTML5 integration Example</title>
+<style>
+  #canvas { position:absolute;top:0;left:0;border:1px solid black; }
+  #canval { position:absolute;top:0px;left:420px;width:1000px;height:400px; }
+  #save { position:absolute;top:420px;left:0px;width:200px;height:90px; }
+  #clear { position:absolute;top:420px;left:200px;width:200px;height:90px; }
+  #suggestions { width:1000px;height:90px;position:absolute;top:420px;left:420px;border:1px solid black;overflow-x:auto;display:flex; }
+  #suggestions img { cursor: pointer; }
+</style>
+<script type="module" crossorigin src="/svg-resolver/assets/index-b32a24fc.js"></script>
+<link rel="stylesheet" href="/svg-resolver/assets/index-3443e464.css">
+
+<body>
+<canvas id="canvas" width="400" height="400"></canvas>
+<textarea id="canval"></textarea>
+<input id="save" type="button" value="Base64" size="30">
+<input id="clear" type="button" value="Clear" size="23">
+<div id="suggestions"></div>
+
+  </body>
+</html>
